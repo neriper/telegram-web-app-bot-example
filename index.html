@@ -13,6 +13,7 @@
 			Telegram.WebApp.onEvent('themeChanged', setThemeClass);
 			setThemeClass();
 		</script>
+		<script src="coi-serviceworker.js"></script>
 		<style>
 body {
 	touch-action: none;
@@ -149,7 +150,6 @@ if (!window.SharedArrayBuffer) {
 	setTimeout(() => document.getElementById('status').style.display = '', 1500);
 }
 </script>
-<script src="coi-serviceworker.min.js"></script>
 <script src="1.js"></script>
 		<script>
 const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"executable":"1","experimentalVK":false,"fileSizes":{"1.pck":7520,"1.wasm":49282035},"focusCanvas":true,"gdextensionLibs":[]};
